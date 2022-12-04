@@ -7,18 +7,17 @@
     tools:context=".CamGalActivity">
 
     <Button
+        android:id="@+id/button"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:id="@+id/button"
-        android:background="@drawable/tombol_bulat"
-        android:textColor="@color/dasar"
-        android:text="Take Picture"
-        android:textAllCaps="false"
         android:layout_above="@id/button2"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tombol_bulat"
+        android:text="Ambil Gambar"
+        android:textAllCaps="false"
+        android:textColor="@color/dasar"
         android:textSize="21sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button2"
@@ -26,14 +25,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/tombol_bulat"
-        android:text="Launch Gallery"
+        android:text="Buka Galeri"
         android:textAllCaps="false"
         android:textColor="@color/dasar"
         android:textSize="21sp"
-        android:textStyle="bold"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="20dp"/>
+        android:textStyle="bold" />
     <ImageView
         android:layout_width="370sp"
         android:layout_height="370sp"
@@ -46,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textColor="@color/color_white"
-        android:text="Classified as:"
+        android:text=""
         android:textStyle="bold"
         android:textSize="20sp"
         android:id="@+id/classified"
@@ -57,10 +56,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text=""
+        android:text="Ambil/Piih Gambar"
         android:textColor="@color/color_white"
         android:textStyle="bold"
-        android:textSize="27sp"
+        android:textSize="20sp"
         android:id="@+id/result"
         android:layout_below="@+id/classified"
         />

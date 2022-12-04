@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aplikasi identifikasi aksara Jawa"
+            android:text="Aplikasi Identifikasi Aksara Jawa"
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="@color/color_white"
@@ -74,7 +74,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CANVAS"
+                android:text="KUAS"
                 android:textStyle="bold"
                 android:textSize="15dp"
                 android:textColor="@color/color_white"

@@ -109,7 +109,7 @@ class CamGalActivity : AppCompatActivity() {
                 "wa",
                 "ya"
             )
-            result!!.text = classes[maxPos]
+            result!!.text = "Prediksi Aksara: %s\nConfidence: %2f".format(classes[maxPos], maxConfidence)
 
             // Releases model resources if no longer used.
             model.close()
